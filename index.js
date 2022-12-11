@@ -1,3 +1,5 @@
+// npm init -y
+// npm install --save @solana/web3.js
 const { 
   Connection, 
   LAMPORTS_PER_SOL, 
@@ -29,4 +31,4 @@ const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
     privateKey: keypair.secretKey,
     signature: airdropSignature,
     txn
-  })
+  })()

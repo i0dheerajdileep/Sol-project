@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@solana/web3.js": "^1.70.1"
+  },
+  "name": "workspace",
+  "description": "Solana project to create tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i0dheerajdileep/sol-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i0dheerajdileep/sol-project/issues"
+  },
+  "homepage": "https://github.com/i0dheerajdileep/sol-project#readme"
+}
